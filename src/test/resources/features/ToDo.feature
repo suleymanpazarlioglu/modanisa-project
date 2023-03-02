@@ -25,7 +25,7 @@ Feature:ToDo app feature
     Given ToDo list with "rest for a while" item
     When I click on <delete button> next to "rest for a while" item
     Then List should be empty
-
+  @regression
   Scenario: As a user check the todo list operations
     Given ToDo list with "rest for a while" and "drink water" item in order
     When  I click on <delete button> next to "rest for a while" item
